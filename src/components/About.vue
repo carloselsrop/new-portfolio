@@ -1,26 +1,48 @@
 <template>
-  <div id="About" class="w-full h-screen lg:px-40 sm:px-12 select-none">
+  <div id="About" class="w-full py-12 lg:px-40 sm:px-12 select-none">
     <div class="flex justify-center pt-12 font-body font-extrabold text-5xl">
       About me
     </div>
-    <div class="flex justify-center pt-2 text-gray-500 font-body text-xl">
+    <div class="flex justify-center pt-2 text-gray-500 font-body text-xl pb-4">
       My introduction
     </div>
-    <div class="w-full aboutSize flex">
-      <div class="w-1/2 h-full flex justify-end items-center pr-12">
+    <div
+      class="
+        w-full
+        flex flex-col
+        py-8
+        lg:flex-row lg:space-x-8
+        items-center
+        lg:items-center
+        px-8
+        space-y-8
+      "
+    >
+      <div
+        class="w-full lg:w-6/12 lg:justify-end flex justify-center items-center"
+      >
         <img
           class="imgSize rounded-2xl"
-          src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          src="https://i.ibb.co/JrT0R4j/Whats-App-Image-2022-01-07-at-14-48-17.jpg"
           alt=""
         />
       </div>
-      <div class="w-1/2 h-full flex justify-start items-center pl-12">
-        <div class="flex flex-col space-y-16 font-body">
-          <div class="text-xl">
-            Web developer, with extensive knowledge <br />
-            and months of experience, working on web<br />
-            technologies and Ui / Ux design, delivering<br />
-            quality work.
+      <div
+        class="
+          w-full
+          lg:w-6/12
+          xl:w-3/12
+          flex
+          justify-center
+          lg:justify-start
+          items-center
+        "
+      >
+        <div class="flex flex-col space-y-8 font-body">
+          <div class="text-xl text-center lg:text-left">
+            Web developer, with extensive knowledge and months of experience,
+            working on web technologies and Ui / Ux design, delivering quality
+            work.
           </div>
           <div class="flex justify-between">
             <div class="flex flex-col items-center">
@@ -45,8 +67,8 @@
               </div>
             </div>
           </div>
-          <div>
-            <a href="../assets/docs/cv.pdf" download>
+          <div class="flex justify-center lg:justify-start">
+            <a :href="IMG" download="carlosCV">
               <button class="flex bg-purple-500 px-8 py-6 rounded-lg">
                 <div class="text-white font-semibold text-xl pr-4">
                   Download CV
@@ -92,3 +114,13 @@
   height: 800px;
 }
 </style>
+
+<script>
+import IMG from '../assets/docs/cv.png';
+
+export default {
+  data: () => ({
+    IMG,
+  }),
+};
+</script>

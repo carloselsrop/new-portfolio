@@ -9,7 +9,7 @@
     <div class="flex justify-center pt-2 text-gray-500 font-body text-xl">
       My Abilities
     </div>
-    <div class="w-full skillSize flex pt-16 justify-around">
+    <div class="w-full flex pt-16 px-4 justify-around">
       <div class="relative">
         <div
           class="

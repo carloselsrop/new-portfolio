@@ -3,6 +3,7 @@
     class="
       lg:px-40
       sm:px-12
+      py-24
       w-full
       flex flex-col
       justify-center

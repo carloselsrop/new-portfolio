@@ -94,7 +94,7 @@
     </div>
     <!-- right-side sm -->
     <div
-      class="sm:flex lg:hidden relative cursor-pointer"
+      class="sm:flex lg:hidden relative z-50 cursor-pointer"
       @click="isOpen = !isOpen"
     >
       <svg
@@ -125,6 +125,7 @@
           right-0
           select-none
           rounded-md
+          bg-purple-500
           border-2 border-purple-500
           px-4
           flex flex-col

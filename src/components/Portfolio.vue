@@ -1,5 +1,5 @@
 <template>
-  <div id="Portfolio" class="w-full h-screen lg:px-40 sm:px-12 font-body">
+  <div id="Portfolio" class="w-full py-12 lg:px-12 xl:px-28 font-body">
     <div
       class="
         flex
@@ -8,11 +8,12 @@
         font-body font-extrabold
         text-5xl
         select-none
+        w-full
       "
     >
       Portfolio
     </div>
-    <div class="w-full portfolioSize text-white">
+    <div class="w-full py-8 px-2 text-white">
       <carousel :items-to-show="1">
         <slide v-for="slide in imgs" :key="slide">
           <div
@@ -60,7 +61,9 @@
                 "
               >
                 <div class="text-3xl pb-4">{{ slide.name }}</div>
-                <div class="description pb-2">{{ slide.description }}</div>
+                <div class="description pb-2 px-32 sm:px-2">
+                  {{ slide.description }}
+                </div>
                 <a :href="slide.button" target="_blank">
                   <button
                     class="
@@ -68,7 +71,7 @@
                       hover:scale-105
                       transition-transform
                       duration-300
-                      xxs:py-2
+                      py-2
                       bg-purple-500
                       xxs:px-1
                       sm:px-4

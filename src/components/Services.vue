@@ -1,7 +1,7 @@
 <template>
   <div
     id="Services"
-    class="w-full h-screen lg:px-40 sm:px-12 font-body select-none"
+    class="w-full lg:px-40 sm:px-12 font-body select-none py-12"
   >
     <div class="flex justify-center pt-12 font-body font-extrabold text-5xl">
       Services
@@ -9,9 +9,11 @@
     <div
       class="
         w-full
-        serviceSize
-        flex flex-wrap
-        justify-around
+        py-16
+        flex flex-col
+        md:flex-row
+        space-y-16
+        md:space-y-0 md:justify-around
         items-center
         text-white
       "
