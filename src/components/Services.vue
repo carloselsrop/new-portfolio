@@ -38,8 +38,8 @@
         <div class="px-6">
           <div class="text-2xl pb-4">Web Design</div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ab
-            minima fuga.
+            I consider myself a person who likes to design templates and
+            recreate them with the use of different design tools.
           </div>
         </div>
       </div>
@@ -79,50 +79,8 @@
           <div class="px-6">
             <div class="text-2xl pb-4">Frontend Developer</div>
             <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ab
-              minima fuga.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="
-          cardService
-          bg-purple-500
-          rounded-xl
-          transform
-          hover:scale-105
-          transition
-          duration-500
-          shadow-xl
-        "
-      >
-        <div
-          class="
-            py-12
-            cursor-pointer
-            cardService
-            bg-purple-500
-            rounded-xl
-            transform
-            hover:scale-105
-            transition
-            duration-500
-            shadow-xl
-            flex flex-col
-            justify-around
-            items-center
-            space-y-4
-          "
-        >
-          <div>
-            <img class="w-96 h-80" src="@/assets/img/backend.png" alt="" />
-          </div>
-          <div class="px-6">
-            <div class="text-2xl pb-4">Backend Developer</div>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ab
-              minima fuga.
+              I found one of the things that I enjoy doing the most which is the
+              development and design of web applications
             </div>
           </div>
         </div>

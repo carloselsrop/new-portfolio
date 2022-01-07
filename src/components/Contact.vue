@@ -25,9 +25,9 @@
     >
       Get in touch
     </div>
-    <div class="contactSize w-full flex pt-12">
+    <div class="contactSize w-full flex justify-center">
       <!-- Contact -->
-      <div class="w-3/12 space-y-24 flex flex-col items-start">
+      <div class="w-full space-x-16 flex flex-wrap justify-center">
         <!-- Number -->
         <div class="flex items-center space-x-4">
           <div>
@@ -119,151 +119,6 @@
             <div class="text-2xl select-none">Location</div>
             <div class="select-none">El Salvador - San Salvador</div>
           </div>
-        </div>
-      </div>
-      <!-- Send a email -->
-      <div class="w-9/12 px-36 space-y-16 select-none">
-        <!-- Name and email -->
-        <div class="flex">
-          <div
-            class="
-              bg-gray-700
-              flex flex-col
-              w-6/12
-              px-8
-              py-4
-              rounded-lg
-              space-y-1
-              mr-1
-            "
-          >
-            <div class="text-white">Name</div>
-            <input
-              class="
-                bg-transparent
-                focus:outline-none
-                border-b-2 border-transparent
-                focus:border-white
-                transition
-                duration-300
-                text-white
-              "
-              type="text"
-            />
-          </div>
-          <div
-            class="
-              bg-gray-700
-              flex flex-col
-              px-8
-              py-4
-              rounded-lg
-              space-y-1
-              w-6/12
-              ml-1
-            "
-          >
-            <div class="text-white">Email</div>
-            <input
-              class="
-                bg-transparent
-                focus:outline-none
-                border-b-2 border-transparent
-                focus:border-white
-                transition
-                duration-300
-                text-white
-              "
-              type="email"
-            />
-          </div>
-        </div>
-        <!-- Name of the project -->
-        <div
-          class="
-            bg-gray-700
-            flex flex-col
-            px-8
-            py-4
-            rounded-lg
-            space-y-1
-            w-full
-          "
-        >
-          <div class="text-white">Project</div>
-          <input
-            class="
-              bg-transparent
-              focus:outline-none
-              border-b-2 border-transparent
-              focus:border-white
-              transition
-              duration-300
-              text-white
-            "
-            type="email"
-          />
-        </div>
-        <!-- Big Message -->
-        <div
-          class="
-            bg-gray-700
-            flex flex-col
-            px-8
-            py-4
-            rounded-lg
-            space-y-1
-            w-full
-          "
-        >
-          <div class="text-white">Message</div>
-          <textarea
-            name=""
-            class="
-              resize-none
-              bg-transparent
-              focus:outline-none
-              border-b-2 border-transparent
-              focus:border-white
-              transition
-              duration-300
-              text-white
-            "
-            id=""
-            cols="30"
-            rows="8"
-          ></textarea>
-        </div>
-        <!-- Button contact me -->
-        <div>
-          <button class="py-4 bg-purple-500 rounded-lg flex items-center px-4">
-            <div class="text-white text-xl font-semibold">Contact Me</div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="
-                ml-1
-                h-6
-                w-6
-                font-semibold
-                text-white
-                transform
-                hover:translate-x-1
-                transition
-                duration-300
-              "
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M13 9l3 3m0 0l-3 3m3-3H8m13
-                0a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-          </button>
         </div>
       </div>
     </div>

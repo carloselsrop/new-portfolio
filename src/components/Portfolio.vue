@@ -118,36 +118,41 @@ export default {
       {
         img: 'https://i.ibb.co/Ctb9J9v/carlos.png',
         name: 'Carlos +',
-        description: 'This is a "copy" (non-profit) of the famous DISNEY + movie streaming platform, this is a work for learning purposes.',
+        description:
+          'This is a "copy" (non-profit) of the famous DISNEY + movie streaming platform, this is a work for learning purposes.',
         button: 'https://disney-plus-carlos.herokuapp.com/',
         icon: 'https://img.icons8.com/ios-filled/452/heroku.png',
       },
       {
-        img: 'https://i.ibb.co/2Mj9gbd/tiendaSV.png',
-        name: 'Tienda SV',
-        description: 'This is a national E-commerce taking inspiration (without plagiarism purposes) from other E-commerce`s in the country, such as Mercandu or Urra.',
-        button: 'https://tienda-sv.herokuapp.com/',
-        icon: 'https://img.icons8.com/ios-filled/452/heroku.png',
+        img: 'https://i.ibb.co/pdgt7wp/hekto.png',
+        name: 'Hekto Ecommerce',
+        description:
+          'This is a national E-commerce taking inspiration (without plagiarism purposes) from other E-commerce`s in the country, such as Mercandu or Urra.',
+        button: 'https://lucid-nobel-beb59a.netlify.app/',
+        icon: 'https://cdn.iconscout.com/icon/free/png-256/netlify-3627172-3029580.png',
       },
       {
         img: 'https://i.ibb.co/Vj9GWSG/sca.png',
         name: 'SCA',
-        description: 'Accident control system, it is a system made with React.js, its function is to manage and store the different accidents that happen in any industrial company, currently only used by the BIMBO company.',
+        description:
+          'Accident control system, it is a system made with React.js, its function is to manage and store the different accidents that happen in any industrial company, currently only used by the BIMBO company.',
         button: 'https://github.com/stevenbdf/control-accidentes-web',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
       },
       {
         img: 'https://i.ibb.co/gZ8620f/rick.png',
         name: 'Rick And Morty App',
-        description: 'This is a website that I made for learning purposes on how to consume the information provided by the REST API by implementing the information in views with AXIOS and handle state using VUEX.',
+        description:
+          'This is a website that I made for learning purposes on how to consume the information provided by the REST API by implementing the information in views with AXIOS and handle state using VUEX.',
         button: 'https://competent-visvesvaraya-c0824e.netlify.app/',
         icon: 'https://cdn.iconscout.com/icon/free/png-256/netlify-3627172-3029580.png',
       },
       {
-        img: 'https://i.ibb.co/k92W6tg/Captura.png',
-        name: 'IBANK',
-        description: 'This is a website that I made for learning purposes on how to consume the information provided by the REST API by implementing the information in views with AXIOS and handle state using VUEX.',
-        button: 'https://infallible-kirch-1013f0.netlify.app/',
+        img: 'https://i.ibb.co/0VfMBv9/asd.png',
+        name: 'ToDo App',
+        description:
+          'I made this website with the aim of practicing using a global status manager like Redux and implementing some extra features like adding a youtube playlist player.',
+        button: 'https://stupefied-shannon-412b86.netlify.app/',
         icon: 'https://cdn.iconscout.com/icon/free/png-256/netlify-3627172-3029580.png',
       },
     ],

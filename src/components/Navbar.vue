@@ -1,7 +1,7 @@
 <template>
   <div
     id="Home"
-    class="w-full flex justify-between lg:px-40 sm:px-12 py-6 items-center"
+    class="w-full flex justify-between lg:px-40 px-8 sm:px-12 py-6 items-center"
   >
     <!-- left-side -->
     <div
@@ -18,17 +18,7 @@
       Carlos
     </div>
     <!-- right-side xl -->
-    <div
-      class="
-        flex
-        space-x-12
-        select-none
-        sm:hidden
-        lg:flex
-        lg:space-x-8
-        font-body
-      "
-    >
+    <div class="lg:flex space-x-12 select-none hidden lg:space-x-8 font-body">
       <a v-smooth-scroll="{ duration: 1000 }" href="#Home">
         <button
           class="
