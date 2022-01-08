@@ -145,8 +145,8 @@
 <script>
 export default {
   data: () => ({
-    fdIsOpen: false,
-    wdIsOpen: false,
+    fdIsOpen: true,
+    wdIsOpen: true,
     wbItems: [
       {
         name: 'figma',

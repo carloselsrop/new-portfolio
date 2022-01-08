@@ -28,33 +28,17 @@
             Medium level experience in web design and <br />
             development knowwledge, producing quality work.
           </div>
-          <button class="py-4 bg-purple-500 rounded-lg flex px-4">
-            <div class="text-white text-xl font-semibold">Contact Me</div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="
-                ml-1
-                h-6
-                w-6
-                font-semibold
-                text-white
-                transform
-                hover:translate-x-1
-                transition
-                duration-300
-              "
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+          <div class="flex space-x-4">
+            <a
+              v-for="social in socialMedia"
+              class="p-3 rounded-xl bg-purple-500 shadow-md"
+              :key="social.name"
+              :href="social.path"
+              target="_blank"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M13 7l5 5m0 0l-5 5m5-5H6"
-              />
-            </svg>
-          </button>
+              <img class="w-6 h-6" :src="social.icon" alt="" />
+            </a>
+          </div>
         </div>
       </div>
       <div class="absolute bottom-12 flex items-center space-x-2">
@@ -136,6 +120,25 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    socialMedia: [
+      {
+        name: 'Github',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
+        path: 'https://github.com/carloselsrop',
+      },
+      {
+        name: 'Linkedin',
+        icon: 'https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png',
+        path: 'https://www.linkedin.com/in/carlos-guzm%C3%A1n-mart%C3%ADnez-7b670a203/',
+      },
+    ],
+  }),
+};
+</script>
 
 <style scoped>
 .heightC {
